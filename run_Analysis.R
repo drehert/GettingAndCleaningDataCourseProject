@@ -6,13 +6,13 @@ url <- "http://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%
 download.file(url,file, mode = "wb")
 unzip(file)
 
-##Install dplyr  
+##Install plyr  
 
-if(!is.element("dplyr", installed.packages()[,1])){
-  install.packages("dplyr")
+if(!is.element("plyr", installed.packages()[,1])){
+  install.packages("plyr")
 }
 
-library(dplyr)
+library(plyr)
 
 ##Read the variable labels, training, and test data
 
