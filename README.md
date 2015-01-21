@@ -8,14 +8,14 @@ This will create a directory in your root file path "~/" called "~/Coursera".  I
 
 How the script works:
 
-##Downloads UCI HAR Dataset and unzips it
-##Install plyr
-##Read the variable labels, training, and test data
-##cbind xtest, ytest(Activities), and subjectte(Subject IDs) and xtrain, ytrain(Activities), subjecttr(Subject IDs)
-##rbind the train and test data sets
-##Rename the variables in traintestdata using the names from features and add names to the activity and subject columns
-##Extract the variables on means and stds from traintestdata
-##Recode the Activity variable with descriptive names
-##Group the data by Activity and subject and return a dataframe with the average of each of the extracted variables.
-##Adds "_mean" to all the column names
-##Save the resulting dataset for upload
+1.Downloads UCI HAR Dataset and unzips it
+2.Installs plyr
+3.Reads the variable labels, training, and test data
+4.cbinds xtest, ytest(Activities), and subjectte(Subject IDs) and xtrain, ytrain(Activities), subjecttr(Subject IDs)
+5.rbinds the train and test data sets
+6.Renames the variables in traintestdata using the names from features and add names to the activity and subject columns
+7.Extracts the variables on means and stds from traintestdata
+8.Recodes the Activity variable with descriptive names
+9.Groups the data by Activity and subject and return a dataframe with the average of each of the extracted variables.
+10.Adds "_mean" to all the column names
+11.Saves the resulting dataset for upload
